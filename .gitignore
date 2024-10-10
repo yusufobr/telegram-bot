@@ -1,0 +1,43 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyo
+*.pyd
+*.pyo
+
+# Ignore environment variables file
+.env
+
+# Ignore virtual environment folder
+venv/
+env/
+
+# Ignore log files
+*.log
+
+# Ignore compiled code
+*.so
+*.dll
+*.dylib
+
+# Ignore Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignore package management files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore IDE specific files (for common IDEs/editors)
+.vscode/
+.idea/
+*.swp
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore coverage and test reports
+.coverage
+htmlcov/
+.tox/
